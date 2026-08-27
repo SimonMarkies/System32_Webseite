@@ -1,6 +1,6 @@
 import './header.css'
 import { useActiveSection } from './ActiveSection'
-import headSpinGif from './assets/Sys32HeadSpin.gif'
+import headSpinGif from '../../public/Sys32HeadSpin.gif'
 
 const headerSections: { label: string; id: string }[] = [
     { label: "System32", id: "system32ID" },
