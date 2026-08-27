@@ -1,0 +1,43 @@
+.footer {
+  bottom: 3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #141414;
+  background-color: rgb(41, 41, 41);
+  margin: 3% auto;
+  padding: 1.5% 4%;
+  border-style: solid;
+  border-color: #CCCCCC;
+  border-width: 7px;
+  width: fit-content;
+  gap: 50px;
+  z-index: 4;
+}
+
+.footer p {
+  color: white;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,18 @@
+.wishlistStyling {
+  border-style: solid;
+  border-color: #690101;
+  background-color: #ff0101;
+  border-width: 7px;
+  width: max-content;
+  flex-shrink: 0;
+  padding: 3% 6%;  
+  display: flex;
+  align-items: center;
+}
+
+.wishlistStyling h2 {
+    font-size: x-large;
+    font-weight: bolder;
+    white-space: nowrap;
+    margin: 0;
+}
