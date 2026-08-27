@@ -20,7 +20,7 @@ export default function Header() {
                 {headerSections.map((section) => (
                     <section key={section.id}>
                         {activeId === section.id && (
-                            <img src="/Sys32HeadSpin.gif" alt="Head spinning of Mainchar" />
+                            <img src="Sys32HeadSpin.gif" alt="Head spinning of Mainchar" />
                         )}
                         <h2 className={activeId === section.id ? 'sectionchoosen' : ''}>
                             <a href={`#${section.id}`}>{section.label}</a>
