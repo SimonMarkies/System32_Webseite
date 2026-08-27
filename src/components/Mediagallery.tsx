@@ -1,11 +1,11 @@
 import "./mediagallery.css";
 
 const picArray: string[] = [
-    "/Screenshot1.jpg",
-    "/Screenshot2.jpg",
-    "/Screenshot3.jpg",
-    "/Screenshot4.jpg",
-    "/Screenshot6.jpg",
+    "Screenshot1.jpg",
+    "Screenshot2.jpg",
+    "Screenshot3.jpg",
+    "Screenshot4.jpg",
+    "Screenshot6.jpg",
 ];
 
 export default function Mediagallery() {

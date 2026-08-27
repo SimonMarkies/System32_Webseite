@@ -8,6 +8,7 @@ import AboutUs from './components/AboutUs'
 import Footer from './components/Footer'
 
 
+
 function App() {
 
   function playMouseClick() {
@@ -28,8 +29,11 @@ function App() {
         <BackgroundClouds />
         <Header />
         <section id="system32ID"className='titleVideo'>
-          <img src="/Cover.png" alt="System 32 Cover Picture" />
-          <video src="/IntroLEvel (1).mp4"></video>
+          <img src="Cover.png" alt="System 32 Cover Picture" />
+          <video autoPlay loop>
+             <source src="dist\Gameplay.mp4" type="video/mp4"></source>
+          </video>
+
         </section>
 
         <Description />
