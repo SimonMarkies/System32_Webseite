@@ -1,5 +1,6 @@
 import './header.css'
 import { useActiveSection } from './ActiveSection'
+import headSpinGif from './assets/Sys32HeadSpin.gif'
 
 const headerSections: { label: string; id: string }[] = [
     { label: "System32", id: "system32ID" },
@@ -19,7 +20,7 @@ export default function Header() {
                 {headerSections.map((section) => (
                     <section key={section.id}>
                         {activeId === section.id && (
-                            <img src="/Sys32HeadSpin.gif" alt="Head spinning of Mainchar" />
+                            <img src={headSpinGif} alt="Head spinning of Mainchar" />
                         )}
                         <h2 className={activeId === section.id ? 'sectionchoosen' : ''}>
                             <a href={`#${section.id}`}>{section.label}</a>
