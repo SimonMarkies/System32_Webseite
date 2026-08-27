@@ -24,7 +24,7 @@ export default function Description() {
                         Find out by wishlisting System32
                     </p>
 
-                    <img src="public\Screenshot1.jpg" alt="Gameplay from System32" />
+                    <img src="Screenshot1.jpg" alt="Gameplay from System32" />
                 </div>
                 
 
