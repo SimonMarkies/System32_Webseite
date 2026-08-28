@@ -121,3 +121,16 @@ p {
   border-color: #CCCCCC;
   border-width: 10px;
 }
+@media (max-width: 768px) {
+  .titleVideo {
+    margin: 1% 1%;
+  }
+  .titleVideo img {
+    position: static;
+    top: unset;
+    left: unset;
+    transform: none;
+    display: block;
+    margin: 0 auto 3%;
+  }
+}

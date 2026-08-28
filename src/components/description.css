@@ -31,6 +31,15 @@
     border-color: var(--system-border-bg);
 }
 
+@media (max-width: 768px) {
+    .releaseDate {
+        width: auto;
+        min-width: unset;
+        gap: 3%;
+        padding: 3% 5%;
+    }
+}
+
 .releaseDate h1 {
     color: #ff0000;
     white-space: nowrap;      
@@ -38,6 +47,17 @@
     font-variant-numeric: tabular-nums;
     min-width: 400px;       
     text-align: center; 
+}
+
+@media (max-width: 768px) {
+    .releaseDate h1 {
+        min-width: unset;
+        font-size: x-large;
+    }
+    .releaseDate h2 {
+        min-width: unset;
+        font-size: large;
+    }
 }
 
 .releaseDate h2 {
@@ -50,6 +70,15 @@
     flex-direction: row;
     margin: 5px;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .descriptionWishlist {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .explaination {
