@@ -6,7 +6,7 @@ export default function AboutUs() {
 
             <h2>System32</h2>
             <p>
-                System32 was originally made during GameDevWeek Trier. After very positive feedback from players at LFG-Con Dokomi and, of course, GameDevWeek Trier, we decided to turn the game jam idea into a full game.
+                System32 was originally made during GameDevWeek Trier. After very positive feedback from players at LFG-Con, Dokomi and, of course, GameDevWeek Trier, we decided to turn the game jam idea into a full game.
             </p>
 
             <h2>DWAK</h2>
